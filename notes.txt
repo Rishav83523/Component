@@ -4,3 +4,4 @@ with input decorator no need to use ()  but with input signal we need to use inp
 
 for content selectors and ngcontent we can specify mutiple selectors seperated by commas.
 
+:host allows us to apply css directly to rendered css element.

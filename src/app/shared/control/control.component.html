@@ -1,4 +1,5 @@
-<p>
+<p class="control">
   <label>{{label}}</label>
   <ng-content select="input, textarea"></ng-content>
+  <!-- this text area will not be given style because our browser will think as a placeholder not control input or control textarea to do this we do encapsulation: ViewEncapsulation.None means it will make the style global. -->
 </p>
