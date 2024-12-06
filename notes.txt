@@ -1,0 +1,6 @@
+<ng-content select="icon> -> </ng-content> if ng content fails to show that thing in icon selector it will show the selector content.aur called as fallback content.
+
+with input decorator no need to use ()  but with input signal we need to use input ()  because its a signal function.
+
+for content selectors and ngcontent we can specify mutiple selectors seperated by commas.
+
