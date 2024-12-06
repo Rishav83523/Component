@@ -5,3 +5,20 @@ with input decorator no need to use ()  but with input signal we need to use inp
 for content selectors and ngcontent we can specify mutiple selectors seperated by commas.
 
 :host allows us to apply css directly to rendered css element.
+
+
+@HostBinding('class') className = 'control'
+also we can use hostListener  we can listen to events on the host element
+
+host:{
+  (class) = 'onclick();
+}
+
+now just call the onCLick function
+
+
+//we get programettic acess to elements like this .
+private el = inject(ElementRef)
+
+
+
