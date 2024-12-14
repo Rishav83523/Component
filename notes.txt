@@ -20,5 +20,27 @@ now just call the onCLick function
 //we get programettic acess to elements like this .
 private el = inject(ElementRef)
 
+ngOnchanges is called when the input recieved changes
+angular automaticllay produces changes object.
+
+ngOnDestroy will be called just before the component is getting destroyed
+
+ngDocheck is invoked by angular if it thinks there is some change is ui and this hook is called a lot so discouraged to use it more
+
+Content vs view
+
+view is its template
+all elements inside are part of its view
+
+content is any content projected into view with ngcontent
+ngAFterContentinit if content is instialiszed
+
+contentchecked when angular mechnism checks for some changes
+
+its same for viewintit and viewchecked but for template
+
+ngOnit is called after angular has intialized all data-bound properties
+
+
 
 
