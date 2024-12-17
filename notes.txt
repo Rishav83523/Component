@@ -42,5 +42,7 @@ its same for viewintit and viewchecked but for template
 ngOnit is called after angular has intialized all data-bound properties
 
 
+@viewChild helps us to find child element in that components template.
+
 
 
